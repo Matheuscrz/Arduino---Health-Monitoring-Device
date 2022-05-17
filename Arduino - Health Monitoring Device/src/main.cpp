@@ -1,6 +1,6 @@
 /**
  * @file main.cpp
- * @author Matheus Limsa da Cruz (matheuslimasof.eng@gmail.com)
+ * @author Matheus Lima da Cruz (matheuslimasof.eng@gmail.com)
  * @brief
  * @version 0.1
  * @date 2022-05-12
