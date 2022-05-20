@@ -20,7 +20,7 @@ SoftwareSerial bluethoot(10, 11);
 #include <OneWire.h>
 #include <DallasTemperature.h>
 //Setando Pino de dados do modulo de temperatura
-#define ONE_WIRE_BUS 2
+#define ONE_WIRE_BUS A1
 OneWire oneWire(ONE_WIRE_BUS); //Protocolo OneWire
 DallasTemperature sensors(&oneWire); //Encaminha referências OneWire para o sensor
 
@@ -28,7 +28,7 @@ DallasTemperature sensors(&oneWire); //Encaminha referências OneWire para o sen
 #include <PulseSensorPlayground.h>
 //Configurando interrupções de baixo nível para captura de BPMs mais precisa.
 #define USE_ARDUINO_INTERRUPTS true 
-const int PulseWire = 3;
+const int PulseWire = A0;
 int Limite = 550;
 
 PulseSensorPlayground pulseSensor; //Criação de Instancia do sensor de batimentos
